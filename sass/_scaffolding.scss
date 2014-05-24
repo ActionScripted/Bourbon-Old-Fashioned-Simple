@@ -1,0 +1,75 @@
+/*
+ * Scaffolding -- core page structure
+ */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.global-container {
+  @include outer-container;
+}
+
+.global-header,
+.main-wrapper,
+.global-footer {
+  @include row;
+}
+
+.global-header {
+  padding: 1em 0 0;
+  text-align: center;
+
+  @include media($medium-screen-up) {
+    text-align: left;
+  }
+
+  h1 {
+    padding: 0 0 0 $gutter/2;
+  }
+
+  .global-nav {
+    ul {
+      list-style: none;
+      margin: 1em 0 0;
+      padding: 0;
+
+      li {
+        @include inline-block;
+
+        a {
+          @include inline-block;
+          padding: .5em 1em;
+        }
+      }
+
+      @include media($medium-screen-up) {
+        text-align: right;
+      }
+    }
+  }
+}
+
+.main-article {
+  @include pad(1em);
+
+  @include media($medium-screen-up) {
+    @include span-columns(6);
+  }
+}
+
+.main-sidebar {
+  @include pad(1em);
+
+  @include media($medium-screen-up) {
+    @include span-columns(2);
+    @include omega;
+    margin-top: 2em;
+  }
+}
+
+.global-footer {
+  padding: 1em 0;
+  text-align: center;
+}

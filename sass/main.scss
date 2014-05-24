@@ -1,0 +1,57 @@
+// Normalize
+@import 'normalize/normalize';
+// Bourbon library
+@import 'bourbon/bourbon';
+// Grid settings
+@import 'grid-settings';
+// Grid library
+@import 'neat/neat';
+// Core structure
+@import 'scaffolding';
+
+
+$primary-color: red;
+$accent-color:  blue;
+
+$nav-text-color:    #fff;
+$footer-text-color: $nav-text-color;
+
+html, body {
+  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.global-header {
+  background: $primary-color;
+  color: $nav-text-color;
+
+  .global-nav {
+    background: darken($primary-color, 20%);
+    color: $nav-text-color;
+
+    a {
+      color: $nav-text-color;
+      text-decoration: none;
+      &:hover {
+        background: $accent-color;
+      }
+    }
+
+  }
+}
+
+.main-sidebar {
+  background: lighten($primary-color, 40%);
+}
+
+.global-footer {
+  background: $accent-color;
+  color: $footer-text-color;
+  font-size: .8em;
+}
