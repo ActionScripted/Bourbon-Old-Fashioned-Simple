@@ -12,7 +12,7 @@ Quick Start
 ---
 * Clone project
 * Install SASS (`gem install sass`)
-* From the project root, run `sass --watch sass:css`
+* From the project root, run `sass --watch sass:css` (`sass --watch sass:css --style compressed` for production CSS)
 * Make CSS changes in `sass`. `sass/main.scss` is your primary starting point.
 
 
