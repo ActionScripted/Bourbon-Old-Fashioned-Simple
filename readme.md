@@ -13,7 +13,7 @@ Quick Start
 * Clone project
 * Install SASS (`gem install sass`)
 * Run `sass --watch sass:css`
-* Make CSS changes in `sass`
+* Make CSS changes in `sass`. `sass/main.scss` is your primary starting point.
 
 
 What's Included
