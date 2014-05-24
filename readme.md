@@ -5,7 +5,7 @@ Super simple starter project for responsive layouts. Mobile-first, IE7+ friendly
 
 A simplified version of https://github.com/ActionScripted/Bourbon-Old-Fashioned
 
-This is a slightly opinionated started project. It's built mobile-first, meaning the core styles are built for mobile with breakpoints via media queries that apply layout change for larger sizes. Simply put, the site is designed for a fluid, mobile size and then we override those styles specifically for larger sizes.
+This is a slightly opinionated starter project. It's built mobile-first, meaning the core styles are built for mobile with breakpoints via media queries that apply layout change for larger sizes. Simply put, the site is designed for a fluid, mobile size and then we override those styles specifically for larger sizes.
 
 
 Quick Start
